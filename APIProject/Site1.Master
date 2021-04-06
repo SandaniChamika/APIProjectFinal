@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="APIProject.Site1" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style3 {
+            width: 4122px;
+        }
+        .auto-style5 {
+            width: 1457px;
+            height: 680px;
+        }
+        .auto-style6 {
+            height: 60px;
+        }
+    </style>
+</head>
+<body style="margin:0 auto;padding:0;background-image:url(Stock/6.jpg)">
+    <form id="form1" runat="server">
+        <table style="margin:0 auto" class="auto-style5">
+            <tr style="width:1100px;height:50px">
+                <td style="width:60px">
+                    
+                </td >
+                <td  style="align-content:center;font-size:50px;color:white;text-decoration:double" class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CDC COVID-19 TRACKING SYSTEM</td>
+               
+            </tr>
+            <tr style="width:1100px;height:40px;background-color:darkblue">
+                <td colspan="2">
+                    <asp:Menu ID="Menu1" runat="server" ForeColor="White" Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="Home"  ></asp:MenuItem>
+                            <asp:MenuItem Text="Services" Value="Services"></asp:MenuItem>
+                            <asp:MenuItem Text="About Us" Value="About Us"></asp:MenuItem>
+                            <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                            <asp:MenuItem Text="Registration" Value="Registration"></asp:MenuItem>
+                            <asp:MenuItem Text="Login" Value="Login"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#00CCFF" ForeColor="Black" />
+                        <StaticMenuItemStyle Font-Size="Large" HorizontalPadding="75px" />
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr style="width:1100px;height:300px;">
+                <td colspan="2">
+                   
+                </td>
+            </tr>
+            <tr style="width:1100px">
+                <td colspan="2" class="auto-style6">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            
+             <tr style="width:1100px;height:20px;background-color:black;text-align:center;color:white">
+                <td colspan="2">
+                    <br />
+                    <br />
+                    All right reserved-------2021------Designed by Group 2<br />
+                    <br />
+                </td>
+            </tr>
+          
+
+        </table>
+        
+        
+    </form>
+</body>
+</html>
