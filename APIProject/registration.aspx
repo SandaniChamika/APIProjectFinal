@@ -13,7 +13,7 @@ body {
 section {
     width: 100vw;
     height: 100vh;
-    background-image: url(Stock\a.jpg);
+    background-image: url(Stock\aa.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     display: flex;
