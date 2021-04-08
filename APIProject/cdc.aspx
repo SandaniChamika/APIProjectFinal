@@ -57,7 +57,7 @@
         }
     </style>
     </head>
-<body style="background-color:#D2E1FC;background-image:url(Stock/w.jpg);">
+<body style="background-color:#D2E1FC;background-image:url(Stock/w.jpg)">
     <form id="form1" runat="server">
         <center><strong>
             <br />
