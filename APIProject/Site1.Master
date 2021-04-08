@@ -10,7 +10,7 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style3 {
-            width: 4122px;
+            width: 3428px;
         }
         .auto-style5 {
             width: 1457px;
@@ -18,6 +18,9 @@
         }
         .auto-style6 {
             height: 60px;
+        }
+        .auto-style7 {
+            height: 43px;
         }
     </style>
 </head>
@@ -28,17 +31,27 @@
                 <td style="width:60px">
                     
                 </td >
+                <td style="width:60px">
+                    
+                    &nbsp;</td >
+                <td style="width:60px">
+                    
+                    &nbsp;</td >
+                <td style="width:60px">
+                    
+                    &nbsp;</td >
+                <td style="width:60px">
+                    
+                    &nbsp;</td >
                 <td  style="align-content:center;font-size:50px;color:white;text-decoration:double" class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CDC COVID-19 TRACKING SYSTEM</td>
                
             </tr>
-            <tr style="width:1100px;height:40px;background-color:darkblue">
-                <td colspan="2">
+            <tr style="width:1100px;background-color:darkblue;text-align:right">
+                <td colspan="6" class="auto-style7">
                     <asp:Menu ID="Menu1" runat="server" ForeColor="White" Orientation="Horizontal">
                         <Items>
                             <asp:MenuItem Text="Home" Value="Home"  ></asp:MenuItem>
-                            <asp:MenuItem Text="Services" Value="Services"></asp:MenuItem>
-                            <asp:MenuItem Text="About Us" Value="About Us"></asp:MenuItem>
-                            <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+  
                             <asp:MenuItem Text="Registration" Value="Registration"></asp:MenuItem>
                             <asp:MenuItem Text="Login" Value="Login"></asp:MenuItem>
                         </Items>
@@ -48,19 +61,19 @@
                 </td>
             </tr>
             <tr style="width:1100px;height:300px;">
-                <td colspan="2">
+                <td colspan="6">
                    
                 </td>
             </tr>
             <tr style="width:1100px">
-                <td colspan="2" class="auto-style6">
+                <td colspan="6" class="auto-style6">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </td>
             </tr>
             
              <tr style="width:1100px;height:20px;background-color:black;text-align:center;color:white">
-                <td colspan="2">
+                <td colspan="6">
                     <br />
                     <br />
                     All right reserved-------2021------Designed by Group 2<br />
