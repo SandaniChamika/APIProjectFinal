@@ -57,7 +57,7 @@
         }
     </style>
     </head>
-<body style="background-color:#D2E1FC;background-image:url(Stock/w.jpg)">
+<body class="container" style="background-image:url(Stock/w.jpg); ">
     <form id="form1" runat="server">
         <center><strong>
             <br />
@@ -96,19 +96,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
        
-        <p class="auto-style3">
-            <asp:Label ID="Label2" runat="server" BackColor="Black" CssClass="auto-style2" ForeColor="White" Height="40px" Text="Recovered" Width="220px"></asp:Label>
-            &nbsp;&nbsp; <asp:Label ID="recovered" runat="server" BackColor="White" CssClass="auto-style5" Height="34px" Width="339px"></asp:Label>
-        </p>
-        <p class="auto-style3">
-            <asp:Label ID="Label3" runat="server" BackColor="Black" CssClass="auto-style2" ForeColor="White" Text="Deaths" Width="220px"></asp:Label>
-            &nbsp;&nbsp; <asp:Label ID="deaths" runat="server" BackColor="White" CssClass="auto-style5" Height="34px" Width="339px"></asp:Label>
-        </p>
-        <p class="auto-style7">
-        <asp:Label ID="Label4" runat="server" BackColor="Black" CssClass="auto-style2" ForeColor="White" Height="37px" Text="Total Cases" Width="218px"></asp:Label>
-         &nbsp;&nbsp;
-         <asp:Label ID="Label5" runat="server" BackColor="White" CssClass="auto-style5" Height="34px" Width="339px"></asp:Label>
-        </p>
+        
         
     </form>
 </body>
