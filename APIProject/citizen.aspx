@@ -21,12 +21,12 @@
         }
         .btn {
             background-color: #00ff21;
-            height: 70px;
-            width: 190px;
+            height: 40px;
+            width: 100px;
             border-radius:20px;
             color:white;
             font-weight:bold;
-            font-size:16px;
+            font-size:14px;
         }
         .btn2 {
             background-color: #ff005e;
@@ -56,8 +56,19 @@
         <div style="text-align:center;">
             <asp:GridView ID="GridView1" runat="server"></asp:GridView>
         </div>
+        <table>
+             <tr>
+                <td style="padding:5px;">
+                    <asp:Button ID="Button1" runat="server" Text="Search" CssClass="btn" /></td>
+                <td>
+                    <asp:TextBox ID="TextBox4" runat="server" CssClass="texr1" Width="300px"></asp:TextBox></td>
+            </tr>
+             
+        </table>
+        <hr />
         
          <table style="color:white;">
+            
             <tr >
                 <td style="padding:5px;"> 
                     <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label></td>
