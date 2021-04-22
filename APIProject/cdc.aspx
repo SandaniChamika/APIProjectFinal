@@ -35,70 +35,79 @@
             height: 259px;
             width: 1448px;
         }
-        .auto-style2 {
-            margin-left: 0px;
-            text-align:center;
-            font-size:30px
+        .formnew{
+            background-color:rgb(0 1 101 / 0.70);
+            border-radius:20px;
+            width:100%;
+            padding:20px;
+
         }
-        .auto-style3 {
-            margin-left: 400px;
-            font-size:30px
+        .heading{
+            font-size:35px;
+            color: white;
         }
-        .auto-style5 {
-            margin-left: 47px;
-            font-size:30px;
+        .btn {
+            background-color: #00ff21;
+            height: 70px;
+            width: 190px;
+            border-radius:20px;
+            color:white;
+            font-weight:bold;
+            font-size:16px;
         }
-        .auto-style6 {
-            margin-left: 18px;
+        .btn2 {
+            background-color: #ff005e;
+            height: 70px;
+            width: 150px;
+            border-radius:20px;
+            color:black;
+            font-weight:bold;
         }
-        .auto-style7 {
-            margin-left: 400px;
-            font-size: 30px;
-            width: 955px;
         }
-    </style>
+        .btn:hover{
+            background-color:#00ff3a;
+        }
+        </style>
     </head>
-<body class="container" style="background-image:url(Stock/w.jpg); ">
-    <form id="form1" runat="server">
-        <center><strong>
-            <br />
-            <asp:Label style="color:black;font-size:50px;" ID="Label1" runat="server" Text="Centers for Disease Control and Prevention" ForeColor="White"></asp:Label>
-            <br />
-            <br />
-            
-            <asp:Button ID="Button4" runat="server" Text="Logout" Width="224px" BackColor="#003366" BorderColor="#003366" ForeColor="White" Height="46px" />
-            <br />
-            <br />
+<body class="container" width:100%; height:100%; ">
 
-            <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style2" Height="27px" Width="437px"></asp:TextBox>
-            <asp:Button ID="Button5" runat="server" BackColor="#99CCFF" BorderColor="#99CCFF" Text="Search" CssClass="auto-style6" />
-            <br />
-            <br />
-            </strong>
-            <br />
-        </center>
-
-        <div class="auto-style1">
-            
-            <asp:Button ID="Button1" runat="server" Text="Change Your Password" Width="400px" BackColor="#99CCFF" BorderColor="#99CCFF" ForeColor="Black" Height="50px"  /><br /><br />
-            
-            <asp:Button ID="Button2" runat="server" Text="View Citizen Details" Width="400px" BackColor="#99CCFF" BorderColor="#99CCFF" Height="50px" /><br /><br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button3" runat="server" Text="View PHI Details" Width="400px" BackColor="#99CCFF" BorderColor="#99CCFF" Height="50px" /><br /><br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div style="height:40px;"></div>
+    <div style="text-align:center;">
+        <asp:Label ID="Label1" runat="server" CssClass="heading formnew" Text="Centers for Disease Control and Prevention"></asp:Label>
+    </div>
+    <div style="height:40px;"></div>
 
 
-           
 
-        </div>
-        
-        <br />
+    <form id="form1" runat="server" class="formnew">
 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+        <table>
+            <tr >
+                <td style="padding:5px;"> 
+                    <asp:Button ID="Button1" runat="server" CssClass="btn" Text="PHI Details" /></td>
+                <td rowspan:4;></td>
+            </tr>
+             <tr>
+                <td style="padding:5px;">
+                    <asp:Button ID="Button2" runat="server" CssClass="btn" Text="Citizen Details" /></td>
+                <td></td>
+            </tr>
+             <tr>
+                <td style="padding:5px;">
+                    <asp:Button ID="Button4" runat="server" CssClass="btn" Text="Admin Deails" /></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="padding:5px;">
+                    <asp:Button ID="Button3" runat="server" CssClass="btn" Text="Logout" /></td>
+            </tr>
+        </table>
        
-        
-        
+               
     </form>
+     
+
+    
+    
 </body>
 </html>
